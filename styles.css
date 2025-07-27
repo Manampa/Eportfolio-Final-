@@ -299,6 +299,17 @@ nav {
 footer {
     background-color: #242424;
 }
+.footer__logo {
+    margin-bottom: 20px;
+
+}
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 28px;
+}
 
 .footer__row {
     display: flex;
@@ -316,6 +327,6 @@ footer {
 
 .footer__social--link,
 .footer__copyright {
-    
+    color: #fff;
 } 
 /* dfdf */
