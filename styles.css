@@ -71,6 +71,7 @@ li {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 
@@ -97,6 +98,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 12px;
+
 }
 
 .nav__link--list {
@@ -221,6 +224,7 @@ nav {
 
 .language__list {
     display: flex;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -352,7 +356,7 @@ footer {
     color: #fff;
 } 
 
-.footer__logo--popper { /* hover effect example */
+.footer__logo--popper { /* hover effect example reusable */
     position: absolute;
     right: 0;
     top: 30px;
@@ -370,4 +374,43 @@ footer {
     opacity: 1;
 
 }
-/* dfdf */
+
+/* Small phones,tablets, large smartphones */
+
+@media (max-width: 768px) {
+    nav {
+        height: 68px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .about-me__info--parra {
+        font-size: 18px;
+    }
+
+    .language {
+        width: calc(100% / 3);
+    }
+    .project__description--parra {
+        font-size: 12px;
+    }
+    .project__description {
+        left: 30px;
+        padding-right: 30px;
+    }
+    
+
+
+
+
+
+
+
+    /* .section__title {
+        font-size: 26px;
+    } */
+
+}
+
+/* 1:11:00 
+padding: 0 12px;*
